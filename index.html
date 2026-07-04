@@ -515,7 +515,7 @@
             $('#approvedValue').text(formattedValue);
             
             const whatsappNumber = "5511951294065";
-            const whatsappMessage = `Oi, meu nome é ${$('#nomeCompleto').val()} fiz a simulação online e o empréstimo foi pré-aprovado no valor de ${formattedValue}.`;
+            const whatsappMessage = `Ola, meu nome é ${$('#nomeCompleto').val()} fiz a simulação online e o empréstimo foi pré-aprovado no valor de ${formattedValue}.`;
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
             $('#whatsappBtn').attr('href', whatsappUrl);
         }
